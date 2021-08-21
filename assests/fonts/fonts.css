@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: 'Inter-400';
+    src: url('Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-500';
+    src: url('Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-600';
+    src: url('Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Poppins-500';
+    src: url('Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins-600';
+    src: url('Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-inter-400{
+    font-family: 'Inter-400';
+}
+
+.font-inter-500{
+    font-family: 'Inter-500';
+}
+
+.font-inter-600{
+    font-family: 'Inter-600';
+}
+
+.font-poppins-500{
+    font-family: 'Poppins-500';
+}
+
+.font-poppins-600{
+    font-family: 'Poppins-600';
+}

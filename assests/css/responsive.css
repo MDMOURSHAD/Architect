@@ -1,0 +1,60 @@
+
+@media (max-width: 1599px) {
+
+}
+
+@media (max-width: 1399px) {
+
+}
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+/*
+======================
+Start Curve Css             
+======================                      
+*/
+
+.custom-shape-divider-bottom-1628750329 svg {
+        width: calc(100% + 1.3px);
+        height: 60px;
+}
+
+
+@media (max-width: 575px) {
+
+
+/*
+======================
+MOBILE MENU                         
+======================                      
+*/
+
+.mobile-menu .nav-list {
+    right: -100%;
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
