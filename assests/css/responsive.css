@@ -633,6 +633,11 @@ Start Reusable Components
 ========================================
 */
 
+.px-xs-15{
+	padding-left:15px;
+	padding-right:15px;
+}
+
 /*
 ========================================
 End Reusable Components
@@ -730,6 +735,11 @@ Start Counter Up Section Css
 ========================================
 */
 
+.counter-title h2 {
+    font-size: 28px;
+    width: 90%;
+}
+
 /*
 ========================================
 End Counter Up Section Css
@@ -748,6 +758,15 @@ Start Redefine Section Css
 End Redefine Section Css
 ========================================
 */
+
+.redefine-desc h3 {
+    width: 75%;
+}
+
+.redefine-desc p {
+    width: 85%;
+   
+}
 
 /*
 ========================================
