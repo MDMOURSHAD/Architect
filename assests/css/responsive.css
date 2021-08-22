@@ -633,11 +633,24 @@ Start Reusable Components
 ========================================
 */
 
+.px-xs-50{
+	padding-left:50px !important;
+	padding-right:50px !important;
+}
+
+.px-xs-30{
+	padding-left:30px;
+	padding-right:30px;
+}
+
 .px-xs-15{
 	padding-left:15px;
 	padding-right:15px;
 }
 
+.pe-xs-0{
+	padding-left:0px;
+}
 /*
 ========================================
 End Reusable Components
@@ -737,7 +750,7 @@ Start Counter Up Section Css
 
 .counter-title h2 {
     font-size: 28px;
-    width: 90%;
+    width: 100%;
 }
 
 /*
@@ -760,11 +773,11 @@ End Redefine Section Css
 */
 
 .redefine-desc h3 {
-    width: 75%;
+    width: 100%;
 }
 
 .redefine-desc p {
-    width: 85%;
+    width: 100%;
    
 }
 
@@ -796,6 +809,12 @@ End Technologies Section Css
 Start Service Section Css
 ========================================
 */
+
+.service-box {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /*
 ========================================
 End Service Section Css
@@ -815,11 +834,24 @@ End Latest Project Section Css
 ========================================
 */
 
+.latest-project-title h2{
+	font-size:32px;
+}
+
+.latest-project i.icon-arrow-circle-left-solid, 
+.latest-project i.icon-arrow-circle-right-solid {
+	font-size: 30px;
+}
+
 /*
 ========================================
 Start Consulting Section Css
 ========================================
 */
+
+.consulting-box{
+	padding-right:30px;
+}
 /*
 ========================================
 End Consulting Section Css
@@ -831,6 +863,19 @@ End Consulting Section Css
 Start Newslatter Section Css
 ========================================
 */
+
+.newslatter-field form {
+	padding-left:20px;
+}
+
+.newslatter-field form input[type="email"] {
+    width: 70%;
+}
+
+.newslatter-field form .btn-1 {
+    width: 28% !important;
+}
+
 /*
 ========================================
 End Newslatter Section Css
