@@ -566,7 +566,7 @@ Start Newslatter Section Css
 */
 
 .newslatter-field form {
-    max-width: 100% !important;
+    width: 100% !important;
 }
 
 /*
@@ -852,6 +852,7 @@ Start Consulting Section Css
 .consulting-box{
 	padding-right:30px;
 }
+
 /*
 ========================================
 End Consulting Section Css
@@ -869,11 +870,11 @@ Start Newslatter Section Css
 }
 
 .newslatter-field form input[type="email"] {
-    width: 70%;
+    width: 65%;
 }
 
 .newslatter-field form .btn-1 {
-    width: 28% !important;
+    width: 33% !important;
 }
 
 /*

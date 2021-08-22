@@ -738,6 +738,7 @@ Start Latest Project Section Css
 .partialViewSlider-next {
     right: 215px;
 }
+
 /*
 ========================================
 Start Latest Project Section Css
@@ -803,7 +804,7 @@ Start Newslatter Section Css
 */
 
 .newslatter-field form{
-  max-width:550px;
+  width:550px;
   border:1px solid #E5E5E5;
   background:#F5F8FD;
   border-radius:35px;
