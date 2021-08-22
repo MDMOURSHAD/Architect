@@ -166,6 +166,10 @@ Start Newslatter Section Css
     width: 241px;
 }
 
+.newslatter-field form {
+    width: 410px !important;
+}
+
 /*
 ========================================
 End Newslatter Section Css

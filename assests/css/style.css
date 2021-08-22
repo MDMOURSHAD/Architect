@@ -568,7 +568,7 @@ Start Redefine Section Css
 */
 
 .redefine-desc h3{
-    margin-right: 132px;
+    margin-right: 132px !important;
     margin-bottom: 22px;
 }
 
@@ -583,6 +583,10 @@ Start Redefine Section Css
 .redefine-img img{
   border-radius: 7px;
   width: 100%;
+}
+
+.redefine-btn a{
+  display: inline-block !important;
 }
 
 /*
