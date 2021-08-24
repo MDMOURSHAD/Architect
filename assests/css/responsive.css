@@ -166,6 +166,10 @@ Start Newslatter Section Css
     width: 241px;
 }
 
+.newslatter-field form input[type="submit"] {
+    width: 132px;
+}
+
 .newslatter-field form {
     width: 410px !important;
 }
@@ -191,6 +195,10 @@ Start Reusable Components
     width: 165px !important;
     height: 60px !important;
     line-height: 60px !important;
+}
+
+.py-md-20{
+	padding:20px 0px;
 }
 
 /*
@@ -259,6 +267,28 @@ End Brand Section Css
 
 /*
 ========================================
+Start Technologies Section Css
+========================================
+*/
+
+.technologies-img{
+	height:100%;
+	object-fit:cover;
+	object-position:center;
+}
+
+.technologies-img img {
+    height: 100%;
+}
+
+/*
+========================================
+End Technologies Section Css
+========================================
+*/
+
+/*
+========================================
 Start Service Section Css
 ========================================
 */
@@ -277,7 +307,6 @@ Start Service Section Css
 End Service Section Css
 ========================================
 */
-
 
 /*
 ========================================
@@ -312,6 +341,7 @@ Start Consulting Section Css
 
 .consulting-item p {
 	margin-bottom:20px;
+	margin-right:10px;
 }
 
 .consulting-box span{
@@ -383,6 +413,7 @@ Start Footer Section Css
 End Footer Section Css
 ========================================
 */
+
 
 }
 
@@ -475,7 +506,7 @@ Start Redefine Section Css
 */
 
 .redefine-desc h3 {
-    margin-right: 0px;
+    margin-right: 0px !important;
 }
 
 .redefine-desc p {
@@ -584,52 +615,6 @@ End Newslatter Section Css
 
 @media (max-width: 575px) {
 
-/*
-========================================
-Start Basic Setup
-========================================
-*/
-/*
-========================================
-End Basic Setup
-========================================
-*/
-
-/*
-========================================
-Start Font Size
-========================================
-*/
-/*
-========================================
-End Font Size
-========================================
-*/
-
-
-/*
-========================================
-Start Font Color
-========================================
-*/
-
-/*
-========================================
-End Font Color
-========================================
-*/
-
-
-/*
-========================================
-Start Background Color
-========================================
-*/
-/*
-========================================
-End Background Color
-========================================
-*/
 
 /*
 ========================================
@@ -711,6 +696,7 @@ Start Sticky Menu
 End Sticky Menu
 ===================================
 */
+
 /*
 ======================
 MOBILE MENU                         
@@ -770,12 +756,6 @@ Start Redefine Section Css
 ========================================
 */
 
-/*
-========================================
-End Redefine Section Css
-========================================
-*/
-
 .redefine-desc h3 {
     width: 100%;
 }
@@ -787,24 +767,7 @@ End Redefine Section Css
 
 /*
 ========================================
-Start Brand Section Css
-========================================
-*/
-/*
-========================================
-End Brand Section Css
-========================================
-*/
-
-
-/*
-========================================
-Start Technologies Section Css
-========================================
-*/
-/*
-========================================
-End Technologies Section Css
+End Redefine Section Css
 ========================================
 */
 
@@ -832,20 +795,22 @@ Start Latest Project Section Css
 ========================================
 */
 
+.latest-project-title h2{
+    font-size:32px;
+}
+
+.latest-project i.icon-arrow-circle-left-solid, 
+.latest-project i.icon-arrow-circle-right-solid {
+    font-size: 30px;
+}
+
+
 /*
 ========================================
 End Latest Project Section Css
 ========================================
 */
 
-.latest-project-title h2{
-	font-size:32px;
-}
-
-.latest-project i.icon-arrow-circle-left-solid, 
-.latest-project i.icon-arrow-circle-right-solid {
-	font-size: 30px;
-}
 
 /*
 ========================================
@@ -887,22 +852,48 @@ End Newslatter Section Css
 ========================================
 */
 
-/*
-========================================
-Start Footer Section Css
-========================================
-*/
-/*
-========================================
-End Footer Section Css
-========================================
-*/
-
 }
 
+@media (max-width: 370px) {
 
+		/*
+		========================================
+		Start Redefine Section Css
+		========================================
+		*/
 
+		.redefine-btn .btn-1 {
+		   	width: 120px !important;
+		}
 
+		/*
+		========================================
+		End Redefine Section Css
+		========================================
+		*/
+
+		/*
+		========================================
+		Start Brand Section Css
+		========================================
+		*/
+
+		.brand-img{
+			-ms-flex-pack:distribute !important;
+			    justify-content:space-around !important;
+		}
+
+		.brand-img div:last-child{
+			display:none !important;
+		}
+
+		/*
+		========================================
+		End Brand Section Css
+		========================================
+		*/
+	
+}
 
 
 
