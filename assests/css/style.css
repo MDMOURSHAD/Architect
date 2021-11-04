@@ -286,15 +286,6 @@ Start Header Section Css
 */
 
 .header-section {
-  overflow: hidden;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.5))
-    ),
-    url("../images/hero-bg.png");
   background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/hero-bg.png");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -303,6 +294,7 @@ Start Header Section Css
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 300px;
 }
 
 .nav {
@@ -509,7 +501,9 @@ Start Features Section Css
 */
 
 .features-section {
-  overflow: hidden;
+    overflow: hidden;
+    bottom: -250px;
+    width: 100%;
 }
 
 .features-section .row {
@@ -526,10 +520,14 @@ Start Features Section Css
 .features-item {
   border: 1px solid #e4e4e4;
   border-radius: 7px;
+  background: #fff;
   padding-left: 8px;
   padding-right: 8px;
+  transition: border .3s ease-in;
 }
-
+.features-item:hover{
+  border: 1px solid transparent;
+}
 .features-item:hover span,
 .features-item:hover h3,
 .features-item:hover p,

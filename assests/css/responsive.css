@@ -341,7 +341,7 @@ Start Consulting Section Css
 
 .consulting-item p {
 	margin-bottom:20px;
-	margin-right:10px;
+	margin-right:10px !important;
 }
 
 .consulting-box span{
