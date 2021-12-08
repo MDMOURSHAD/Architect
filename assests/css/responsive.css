@@ -29,9 +29,8 @@ End Reusable Components
 Start Header Section Css
 ========================================
 */
-
 .header-section {
-    height: 90vh;
+    margin-bottom: 0px;
 }
 
 .hero-content h1{
@@ -445,10 +444,6 @@ End Reusable Components
 Start Header Section Css
 ========================================
 */
-
-.header-section {
-    height: 120vh;
-}
 
 .hero-content {
     width: 400px;

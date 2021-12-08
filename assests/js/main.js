@@ -52,16 +52,10 @@ $(document).ready(function(){
 
 	});
 
-	// // Counter UP
-	// $('.counter').counterUp({
- //    delay: 10,
- //    time: 1000
-	// });//
-
   //Latest Project Slider 
 	var partialView = $('#partial-view').partialViewSlider({
 
-  // 70%
+  // 50%
   width: 50,
 
   // shows controls
@@ -97,6 +91,7 @@ $(document).ready(function(){
   // custom next/prev arrows
   prevHtml: '<i class="icon-arrow-circle-left-solid"></i>',
   nextHtml: '<i class="icon-arrow-circle-right-solid"></i>'
+
   
 });
 
