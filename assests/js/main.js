@@ -1,9 +1,9 @@
 // Preloader 
-function load(){
+function load() {
 
-	var loading = document.getElementsByClassName('preloader');
+  var loading = document.getElementsByClassName('preloader');
 
-	loading[0].style.display = "none";
+  loading[0].style.display = "none";
 }
 
 // MOBILE MENU //
@@ -14,86 +14,90 @@ menuIcon.addEventListener("click", () => {
 
   menuIcon.classList.toggle('change');
   navlist.classList.toggle('slide-menu');
-  
+
 });
 
-function myFunction(){
+function myFunction() {
 
   menuIcon.classList.remove('change');
   navlist.classList.remove('slide-menu');
-  
+
 }
 
-$(document).ready(function(){
-	
-	// Sticky Menu
-	$(window).scroll(function(){
+$(document).ready(function () {
 
-		if($(this).scrollTop() > 100){
-			$('.nav').addClass('sticky');
-		}
+  $(document).ready(function ($) {
 
-		else{
-			$('.nav').removeClass('sticky');
-		}
+    /*-- Menu Sticky --*/
+    var windows = $(window);
+    var sticky = $('.nav')
+    windows.on('scroll', function () {
+      var scroll = windows.scrollTop();
+      if (scroll < 250) {
+        sticky.removeClass('stick');
+      } else {
+        sticky.addClass('stick');
+      }
+    });
 
-	});
-	
-	// Scroll to Top
-	$(window).scroll(function(){
+    $(".toggle-menu-icon").click(function () {
+      $(".menu").slideToggle();
+    })
+  });
 
-		if($(this).scrollTop() > 100){
-			$('.scroll-top').fadeIn();
-		}
+  // Scroll to Top
+  $(window).scroll(function () {
 
-		else{
-			$('.scroll-top').fadeOut();
-		}
+    if ($(this).scrollTop() > 100) {
+      $('.scroll-top').fadeIn();
+    } else {
+      $('.scroll-top').fadeOut();
+    }
 
-	});
+  });
 
   //Latest Project Slider 
-	var partialView = $('#partial-view').partialViewSlider({
+  var partialView = $('#partial-view').partialViewSlider({
 
-  // 50%
-  width: 50,
+    // 50%
+    width: 50,
 
-  // shows controls
-  controls: true,
+    // shows controls
+    controls: true,
 
-  // inside, outside, neighbors
-  controlsPosition: 'inside', 
+    // inside, outside, neighbors
+    controlsPosition: 'inside',
 
-  // shows background
-  backdrop: true,
+    // shows background
+    backdrop: true,
 
-  // shows pagination dots
-  dots: false,
+    // shows pagination dots
+    dots: false,
 
-  // enable autoplay
-  auto: true,
+    // enable autoplay
+    auto: true,
 
-  // transition speed in ms
-  transitionSpeed: 500,
+    // transition speed in ms
+    transitionSpeed: 500,
 
-  // autoplay delay in ms
-  delay: 3000,
+    // autoplay delay in ms
+    delay: 3000,
 
-  // enable pause on hover
-  pauseOnHover: false,
+    // enable pause on hover
+    pauseOnHover: false,
 
-  // enable keyboard interactions
-  keyboard: true,
+    // enable keyboard interactions
+    keyboard: true,
 
-  // enable perspective mode
-  perspective: false,
+    // enable perspective mode
+    perspective: false,
 
-  // custom next/prev arrows
-  prevHtml: '<i class="icon-arrow-circle-left-solid"></i>',
-  nextHtml: '<i class="icon-arrow-circle-right-solid"></i>'
+    // custom next/prev arrows
+    prevHtml: '<i class="icon-arrow-circle-left-solid"></i>',
+    nextHtml: '<i class="icon-arrow-circle-right-solid"></i>'
 
-  
-});
+
+  });
 
 
 });
